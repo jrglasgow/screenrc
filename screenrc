@@ -1,0 +1,7 @@
+nethack on
+hardstatus alwayslastline
+
+defscrollback 10000
+
+hardstatus string '%{= kG}[%{y} %H %{g}][%{m} system load:%{c} %l %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{c} %M %d %Y %{W}%c:%s %{g}]'
+shell -$SHELL
